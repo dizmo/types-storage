@@ -15,8 +15,11 @@ npm install @dizmo/types-storage --save
 let lib = require('@dizmo/types-storage');
 ```
 ### Examples
-```javascript
-...
+```typescript
+import { Storage } from "@dizmo/types-storage";
+```
+```typescript
+declare const storage: Storage;
 ```
 ## Development
 ### Build
