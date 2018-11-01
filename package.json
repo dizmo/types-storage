@@ -33,7 +33,7 @@
   "name": "@dizmo/types-storage",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hsk81/types-stores.git"
+    "url": "git@github.com:dizmo/types-storage.git"
   },
   "scripts": {
     "build": "node ./cli/run-build.js",
