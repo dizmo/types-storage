@@ -4,10 +4,11 @@
     "email": "hkarahan@dizmo.com",
     "url": "https://github.com/hsk81"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@dizmo/types-uuid": "^1.0.0"
+  },
   "description": "Storage type definitions",
   "devDependencies": {
-    "@dizmo/types-uuid": "^1.0.0",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
     "babel-cli": "^6.26.0",
