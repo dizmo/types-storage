@@ -9,8 +9,10 @@ describe("Storage", function () {
     it("should not exist", function () {
         chai_1.expect(typeof storage === "undefined" ? "undefined" : _typeof(storage)).to.eq("undefined");
     });
-    it("should be declareable", function () {
-        chai_1.expect(typeof storage === "undefined" ? "undefined" : _typeof(storage)).to.eq("undefined");
+    it("should not be referenceable", function () {
+        chai_1.expect(function () {
+            return storage;
+        }).to.throw(ReferenceError);
     });
 });
 //# sourceMappingURL=test.js.map
